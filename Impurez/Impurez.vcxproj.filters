@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\cheat">
+      <UniqueIdentifier>{0baae5ed-28c6-4a8d-bd42-b1f2b1f8ee5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\others">
+      <UniqueIdentifier>{5c157719-6a03-4354-aaff-2be31b02c4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat\imgui">
+      <UniqueIdentifier>{ba13545b-b634-4ffa-9246-242686807ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat\menu">
+      <UniqueIdentifier>{8d0cc587-dfbe-44f7-9c07-2cd2913f7b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat\menu\useful">
+      <UniqueIdentifier>{e9f1808a-161f-46ef-ae92-46f5fbd3e884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\cheat\encryption">
+      <UniqueIdentifier>{5df4c5c2-f8cc-4721-86ed-a9201dcdbd1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source\cheat\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source\others</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Source\cheat\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Source\cheat\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Source\cheat\menu\useful</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Source\cheat\encryption</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
